@@ -1,7 +1,7 @@
 # query-script
 ###Using a static html site to run custom javascript for you.
 
-Run javascript in someone's browser by putting it in a URL.
+Run javascript in someone's browser without uploading it, by putting it in a URL.
 
 It's basically XSS on purpose.
 
