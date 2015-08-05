@@ -8,7 +8,7 @@ It's basically XSS on purpose.
 ##Simple usage
 Point a browser to `index.html` with the querystring set to your javascript.  Your javascript will be executed.
 
-JQuery, Lodash, and RequireJs are loaded on pageload
+JQuery, Lodash, and RequireJs are loaded before your code is.
 
 The following variables are made public to you, for URL brevity in some common use-cases:
 
@@ -20,8 +20,7 @@ The following variables are made public to you, for URL brevity in some common u
 | h   | jQuery('head') |
 | _   | Lodash         |
 
-##examples
-
+##Examples
 
 https://cdn.rawgit.com/fenwick67/query-script/master/index.html?b.html(%27Hello,%20world!%27)
 
